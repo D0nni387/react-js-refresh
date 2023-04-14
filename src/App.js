@@ -1,8 +1,12 @@
+import { Todo } from "./components/Todo";
+
 function App() {
   return (
-    <div>
-      <h1>React App</h1>
-    </div>
+    <>
+      <Todo title="Learn React" />
+      <Todo title="Bored of React" />
+      <Todo title="Actual not" />
+    </>
   );
 }
 
